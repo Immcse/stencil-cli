@@ -112,7 +112,7 @@ if (process.argv[2] === 'generate') {
     
     // Copy template files to the new component folder
     shell.cp(path.join(templatePath, 'component.css'), 'src/components/' + componentTag + '/' + componentTag + '.css');
-    shell.cp(path.join(templatePath, 'component.spec.ts'), 'src/components/' + componentTag + '/' + componentTag + '.spec.e2e.ts');
+    shell.cp(path.join(templatePath, 'component.spec.e2e.ts'), 'src/components/' + componentTag + '/' + componentTag + '.spec.e2e.ts');
     shell.cp(path.join(templatePath, 'component.tsx'), 'src/components/' + componentTag + '/' + componentTag + '.tsx');
 
     // Replace the placeholders with the component name and tag name
