@@ -3,12 +3,19 @@ The unofficial command line interface for StencilJS.
 
 ## Installation
 
+git clone https://github.com/immcse/stencil-cli.git stencil-cli
+cd stencil-cli
+npm install
+
+--Ignore below
 Stencil requires a recent LTS version of NodeJS and npm. Make sure you've installed and/or updated Node before continuing.
 
 You can install the Stencil CLI globally with command,
 ```bash
 npm i -g @nerdic-coder/stencil-cli
 ```
+
+--Ignore over
 
 Now the `stencil` command should be available in your command line tool.
 
