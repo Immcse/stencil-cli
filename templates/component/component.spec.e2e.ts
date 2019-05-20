@@ -1,5 +1,4 @@
-import { TestWindow } from '@stencil/core/testing';
-import { COMPONENT_NAME } from './COMPONENT_TAG';
+import { newE2EPage } from '@stencil/core/testing';
 
 describe('COMPONENT_TAG', () => {
   it('should build', () => {
