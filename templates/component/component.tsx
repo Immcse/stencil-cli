@@ -1,4 +1,5 @@
-import { Component } from '@stencil/core';
+iimport { Component, Prop, h } from '@stencil/core';
+import { format } from '../../utils/utils';
 
 
 @Component({
