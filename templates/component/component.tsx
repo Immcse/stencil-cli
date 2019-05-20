@@ -13,7 +13,7 @@ export class COMPONENT_NAME {
   render() {
     return (
       <div>
-
+      {this.text}
       </div>
     );
   }
