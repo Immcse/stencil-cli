@@ -1,5 +1,4 @@
 iimport { Component, Prop, h } from '@stencil/core';
-import { format } from '../../utils/utils';
 
 
 @Component({
@@ -7,7 +6,10 @@ import { format } from '../../utils/utils';
   styleUrl: 'COMPONENT_TAG.css'
 })
 export class COMPONENT_NAME {
-
+  
+  /* Sample */
+  @Prop() text: string;
+  
   render() {
     return (
       <div>
